@@ -1,0 +1,111 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    font-family: 'Playfair Display', serif;
+}
+/*********************************HEADER******************/
+.header_container {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 10px solid gray;    
+}
+/********************************MAIN*****************/
+.main_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+    margin-top: 40px;
+}
+.hero_container{
+    display: flex; 
+    align-self: flex-start;   
+    width: 15vw; 
+    height: 100vh;  
+}
+.hero_btn_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 80px;
+}
+.hero_btn_container button {
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 50px;
+    background:#D8D1D0;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-color: #D8D1D0;
+}
+.hero_btn_container button:hover {
+    background: #AFABAA;
+}
+.main_texto_container {
+    width: 100%;
+    margin-right: 80px;
+    color: black;
+    font-weight: 400;
+}
+.main_hero_container {
+    width: 100%;
+    border-bottom: 1px solid #AFABAA;
+}
+.main_hero_container img {
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-bottom: 40px;   
+}
+.titulo_container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.parrafo_container {
+    text-align: start;
+    font-weight: 400;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #AFABAA;
+}
+.parrafo_container h3 span {
+    font-weight: 900;
+}
+.imagenes_container {
+    margin-top: 40px;    
+    border-bottom: 1px solid #AFABAA;
+}
+.imagenes_container img {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+    margin: 0 10px;
+    margin-bottom: 40px;
+}
+.imagenes_container img:hover {
+    scale: 1.2;
+}
+.numero_contacto_container {
+    margin-top: 50px;
+    font-size: 20px;
+}
+/*******************************FOOTER**************************/
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding-top: 50px;
+}
