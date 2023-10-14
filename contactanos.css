@@ -71,6 +71,7 @@
 .correo {
     display: flex;
     align-items: center;
+    color: black;
 }
 .correo img {
     width: 50px;
