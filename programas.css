@@ -32,6 +32,10 @@ a {
     margin-right: 40px;
 }
 
+.header_container p {
+    margin-right: 80px;
+}
+
 /********************************MAIN HERO****************************/
 .main_container {
     display: flex;
