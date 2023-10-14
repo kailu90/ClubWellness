@@ -14,10 +14,10 @@
     .header_container {
         height: 200px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        margin-left: 90px;
-        margin-right: 50px;
+        margin-left: 80px;
+        margin-right: 80px;
         border-bottom: 5px solid #C4CFD1;    
     }
     .header_container img {
@@ -25,7 +25,7 @@
         height: 100px;
         object-fit: cover;
         border-radius: 10px;
-        margin-right: 40px;
+        margin: 0 auto;
     }
     .header_container p {
         margin-right: 80px;
