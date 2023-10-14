@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+        font-family: 'Playfair Display', serif;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    /*********************************HEADER******************/
+    .header_container {
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 90px;
+        margin-right: 50px;
+        border-bottom: 5px solid #C4CFD1;    
+    }
+    .header_container img {
+        width: 250px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-right: 40px;
+    }
+    .header_container p {
+        margin-right: 80px;
+    }
