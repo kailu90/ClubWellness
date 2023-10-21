@@ -1,13 +1,15 @@
 /*******************************FOOTER**************************/
-.footer_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    max-width: 2500px;
-    align-items: center;
+.footer_container {  
     margin: 50px;
     padding-top: 50px;
     border-top: 5px solid #C4CFD1;   
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 10px;      
+    justify-content: center;
+    align-items: center;
+    width: 90vw;      
+    
 }
 .web_container {
     text-align: center;
