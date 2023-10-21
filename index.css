@@ -61,12 +61,11 @@
 /************************CONTENIDO************************************/
 .main_programas_container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    column-gap: 50px;
-    flex-direction: column;
+    grid-template-columns: repeat(auto-fill,1fr);
+    column-gap: 50px;    
     justify-content: center;
     align-items: center;
-    width: 70vw;
+    width: 100vw;
     margin-top: 50px;
 }
 .main_programas_container p {
