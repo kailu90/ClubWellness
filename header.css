@@ -5,6 +5,9 @@
     }
     body {
         font-family: 'Playfair Display', serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     a {
         text-decoration: none;
