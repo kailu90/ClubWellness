@@ -12,12 +12,12 @@
     }
     /*********************************HEADER******************/
     .header_container {
-        height: 200px;
+        height: 150px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 80px;
-        margin-right: 80px;
+        margin-left: 20px;
+        margin-right: 20px;
         border-bottom: 5px solid #C4CFD1;    
     }
     .header_container img {
