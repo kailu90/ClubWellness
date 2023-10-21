@@ -8,9 +8,8 @@
 }
 
 .main_hero_container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 10px;      
+    display: flex;
+    flex-direction: column;    
     justify-content: center;
     align-items: center;
     width: 90vw;      
@@ -52,8 +51,8 @@
 }
 
 .hero_image_container img {
-    width: 280px;
-    height: 400px;
+    width: 80vw;
+    height: 300px;
     object-fit: cover;   
     border-radius: 10px;
     margin-bottom: 20px;
