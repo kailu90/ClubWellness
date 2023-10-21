@@ -4,16 +4,17 @@
     align-items: center;
     justify-content: center;
     margin: 20px;
-    width: 90vw;
+    width: 100vw;
 }
 
 .main_hero_container {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;   
-    text-align: center;    
-    width: 100vw;
-    border-bottom: 1px solid #AFABAA;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 10px;      
+    justify-content: center;
+    align-items: center;
+    width: 90vw;      
+    margin: 60px auto;   
 }
 
 .hero_btn_container {
@@ -45,12 +46,14 @@
     border-color: #03305E;
 }
 .hero_image_container{
-    width: 100%; 
+    display: flex;
+    width: 100%;
+    justify-content: center;    
 }
 
 .hero_image_container img {
     width: 280px;
-    height: 200px;
+    height: 400px;
     object-fit: cover;   
     border-radius: 10px;
     margin-bottom: 20px;
@@ -59,13 +62,21 @@
 /************************CONTENIDO************************************/
 .main_programas_container {
     display: grid;
-    grid-template-columns: repeat(auto-fill,1fr);
-    column-gap: 50px;    
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 10px;      
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    margin-top: 50px;
+    width: 90vw;      
+    margin-top: 60px;        
 }
+
+.main_programas_container .programas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 .main_programas_container p {
     width: 280px;
     height: max-content;  
