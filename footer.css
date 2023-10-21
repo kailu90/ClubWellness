@@ -11,6 +11,7 @@
     width: 90vw;      
     
 }
+
 .web_container {
     text-align: center;
 }
@@ -31,6 +32,11 @@
 
 .numero_contacto_container a:hover {
     color: #03305E;
+}
+
+.logo_container {
+    display: flex;
+    justify-content: center;
 }
 
 .logo_container img {
