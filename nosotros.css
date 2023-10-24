@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 280px;
-    margin: 20px auto;
+    width: 100vw;
+    padding: 20px auto;
 }
 
 .main_nosotros_container {
     width: 280px;
-    margin-top: 100px;
+    margin: 100px auto 100px auto;    
     text-align: center;
 }
 
