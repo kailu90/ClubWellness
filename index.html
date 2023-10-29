@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,400;1,500;1,600;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha384-V7lBOtiw9x2v4DtebKr5AjsiagHZb4W+H9p3Kr4O5g5DM+30+61VqHy5Ov5ziMzT" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,400;1,500;1,600;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-V7lBOtiw9x2v4DtebKr5AjsiagHZb4W+H9p3Kr4O5g5DM+30+61VqHy5Ov5ziMzT" crossorigin="anonymous">
     <link rel="shortcut icon" href="./Imagenes/logo_wellness.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
@@ -20,26 +20,64 @@
 
 <body>
     <header class="header_container">
+        <div class="header_menu_container">
+            <div class="menu_hamburguesa">
+                <div class="linea_menu linea_superior"></div>
+                <div class="linea_menu linea_medio"></div>
+                <div class="linea_menu linea_inferior"></div>
+            </div>
+        </div>
         <div class="header_logo">
             <a href="./index.html"><img src="./Imagenes/logo_wellness.jpeg" alt="Logo club Wellness"></a>
         </div>
-        <div class="header_slogan">
-            <p>Programas de alta cocina en alta mar y tierra, Servicios especializados en bienestar físico y salud</p>
-        </div>
-        
-    </header>
-    <main class="main_container">
-        <section class="main_hero_container">
-            <div class="hero_btn_container">
+        <div class="menu_mobile" id="menu">            
+            <div class="btn_menu_mobile">
                 <a href="./index.html"><button>Inicio</button></a>
                 <a href="./programas.html"><button>Programas</button></a>
                 <a href="./nosotros.html"><button>Nosotros</button></a>
                 <a href="./galeria.html"><button>Galeria</button></a>
                 <a href="./contactanos.html"><button>Contáctanos</button></a>
             </div>
-            <!--<div class="hero_image_container">
-                <img src="./Imagenes/hero_yate.jpg" alt="Imagen hero">
-            </div>-->
+            
+        </div>
+
+    </header>
+    <main class="main_container">
+        <section class="slider_container">
+            <div class="slider_items" id="slider">
+                <div class="slider_item">
+                    <img src="./Imagenes/altamar.jpg" alt="imagen altamar">
+                </div>
+                <div class="slider_item">
+                    <img src="./Imagenes/isla_pirata.jpg" alt="isla pirata">
+                </div>
+                <div class="slider_item">
+                    <img src="./Imagenes/alojamiento4.jpg" alt="isla santa marta">
+                </div>
+                <div class="slider_item">
+                    <img src="./Imagenes/isla_pirata1.jpg" alt="isla pirata">
+                </div>
+                <div class="slider_item">
+                    <img src="./Imagenes/palomino.jpg" alt="Palomino">
+                </div>
+                <div class="slider_item">
+                    <img src="./Imagenes/tayrona.jpg" alt="Tayrona">
+                </div>
+            </div>
+            <div class="flecha_izquierda_slider">
+                <img src="./Imagenes/flecha-izquierda.png" alt="flecha izquierda">
+            </div>
+            <div class="flecha_derecha_slider">
+                <img src="./Imagenes/flecha-izquierda.png" alt="flecha izquierda">
+            </div>
+            </div>
+
+        </section>
+        <section class="main_hero_container">           
+            <div class="hero_parrafo">
+                <p>Programas de alta cocina en alta mar y tierra.</p>
+                <p>Servicios especializados en bienestar físico y salud.</p>
+            </div>
         </section>
         <section class="main_programas_container">
             <div class="introduccion_programa_container programas">
@@ -47,7 +85,8 @@
                 <img src="./Imagenes/paraje.jpg" alt="imagen tayrona">
             </div>
             <div class="programa_navegacion programas">
-                <p>Navega con nosotros y con un reconocido chef, aprendiendo y degustando los más variados platos de la
+                <p>Navega con nosotros y con un reconocido chef, aprendiendo y degustando los más variados platos de
+                    la
                     comida internacional.</p>
                 <img src="./Imagenes/navegacion.jpg" alt="imagen navegacion">
             </div>
@@ -84,7 +123,7 @@
         </div>
     </footer>
 
-
+    <script src="index.js"></script>
 </body>
 
 </html>

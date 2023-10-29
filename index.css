@@ -1,79 +1,48 @@
 .main_container {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;    
-    width: 100vw;
-   
+    width: 100vw; 
+    height: max-content;  
 }
 
-.main_hero_container {
+/******Slider en version mobile está oculto******/
+.slider_container {
+    display: none;
+}
+
+/*El hero es la imagen de fondo del index en la versión mobile*/
+.main_hero_container {   
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    width: 90vw;
-    padding: 60px auto 0 auto;
-  
+    width: 100vw;   
+    height: 90vh; 
+    z-index: -1;   
 }
 
-.hero_btn_container {
+.hero_parrafo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px auto;
-    padding-top: 40px;
-    width: 100vw;
-    height: max-content;
-    background-image: url(./Imagenes/isla_pirata.jpg); 
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.hero_btn_container a {
-    width: max-content;
-}
-
-.hero_btn_container button {
-    font-family: 'Playfair Display', serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 50px;
-    background: #0BC8DE;
-    border-radius: 20px;
     text-align: center;
-    margin-bottom: 20px;   
-    border-color: #0BC8DE;
+    justify-content: flex-end;
+    width: 320px;
+    height: 50vh;
+    font-size: 24px;
     color: white;
+    font-family: 'Monoton', sans-serif;
 }
 
-.hero_btn_container button:hover {
-    background: #03305E;
-    border-color: #03305E;
+.hero_parrafo p {
+    margin: 40px 0;
 }
 
-.hero_image_container {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-
-.hero_image_container img {
-    width: 80vw;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-/************************CONTENIDO************************************/
+/*El main programas container oculto mientras confirmo como ubicarlo*********/
 .main_programas_container {
-    display: grid;
+    display: none;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 10px;
     justify-content: center;
@@ -108,4 +77,77 @@
 
 .main_programas_container img:hover {
     scale: 1.2;
+}
+
+@media (min-width: 1250px) {
+
+    .main_container {
+        margin-top: 80px;
+        position: relative;
+    }
+
+    .main_hero_container {
+        margin-top: 80px;
+    }
+    
+    .hero_btn_container {
+        display: none;
+    }
+
+    .slider_container {
+        display: flex;        
+        width: 50vw;
+        height: 300px;
+        margin: 0 auto;       
+        overflow-y: hidden;      
+        border-radius: 15px;
+    }
+    
+    .slider_items {
+        width: 600%;
+        height: 100%;
+        display: flex;
+    }
+
+    .slider_item {
+        width: 100%;
+        height: 100%;               
+    }
+
+    .slider_item img {
+        width: 50vw;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;        
+    }
+    
+    .flecha_izquierda_slider {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 125px;
+        left: 280px;
+    }
+
+    .flecha_izquierda_slider img {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+    .flecha_derecha_slider {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 125px;
+        right: 280px;
+        transform: rotate(180deg);
+    }
+
+    .flecha_derecha_slider img {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
 }
