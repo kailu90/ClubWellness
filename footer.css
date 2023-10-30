@@ -30,6 +30,11 @@
     margin: 40px 40px;
 }
 
+.contactos_whatsapp {
+    display: flex;
+    flex-direction: column;
+}
+
 .logo_container {
     display: flex;
     justify-content: center;
