@@ -79,8 +79,35 @@ a {
     left: -20px;   
     width: 70vw;
     height: 100vh;
-    background: #03305E;    
+    background: #03305E;  
 }
+
+.transformacion {
+   position: absolute;
+   top: 30px;
+   left: 280px;    
+}
+
+/*Clases para volver menú hamburguesa en X para ocultar menú*/
+
+.transf1 {
+    position: absolute;
+    transform-origin: center;
+    transform: rotate(45deg);
+}
+
+.transf2 {
+    display: none;
+}
+
+
+
+.transf3  {
+    position: absolute;
+    transform-origin: center;
+    transform: rotate(-45deg);
+}
+
 
 .menu_mobile img {
     width: 100%;   
