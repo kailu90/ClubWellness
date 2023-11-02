@@ -1,3 +1,6 @@
+/*Función para mover el slider con las imágenes, para desplazar 
+imágenes a la izquierda y a la derecha*/
+
 const FlechaIzquierdaSlider = document.querySelector(".flecha_izquierda_slider");
 const FlechaDerechaSlider = document.querySelector(".flecha_derecha_slider");
 const slider = document.querySelector("#slider");

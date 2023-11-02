@@ -10,7 +10,7 @@ body {
     justify-content: space-between;
     height: max-content;
     font-family: 'Playfair Display', serif;
-    background-image: url(./Imagenes/isla1.jpg);
+    background-image: url(./Imagenes/yate8.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;    
@@ -100,14 +100,11 @@ a {
     display: none;
 }
 
-
-
 .transf3  {
     position: absolute;
     transform-origin: center;
     transform: rotate(-45deg);
 }
-
 
 .menu_mobile img {
     width: 100%;   
