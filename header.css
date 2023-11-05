@@ -60,11 +60,13 @@ a {
 .header_logo {
     position: absolute;
     top: 10px;
-    left: calc(50vw - 95px);
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .header_logo img {
-    width: 150px;
+    width: 50vw;
+    max-width: 300px;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
@@ -78,6 +80,7 @@ a {
     top: 0;
     left: -20px;   
     width: 70vw;
+    max-width: 300px;
     height: 100vh;
     background: white;  
 }
@@ -85,7 +88,7 @@ a {
 .transformacion {
    position: absolute;
    top: 30px;
-   left: 280px;    
+   left: 300px;    
 }
 
 /*Clases para volver menú hamburguesa en X para ocultar menú*/
@@ -128,7 +131,7 @@ a {
     border: 1px solid #03305E; 
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1024px) {
 
     .header_logo img {
         width: 300px;
