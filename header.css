@@ -10,7 +10,7 @@ body {
     justify-content: space-between;
     height: max-content;
     font-family: 'Playfair Display', serif;
-    background-image: url(./Imagenes/yate8.jpg);
+    background-image: url(./Imagenes/isla_pirata3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;    
@@ -50,7 +50,7 @@ a {
 }
 
 .header_menu_container .linea_menu {
-    background: #03305E;
+    background: white;
     width: 40px;
     height: 5px;
     margin: 2px 0;
@@ -79,7 +79,7 @@ a {
     left: -20px;   
     width: 70vw;
     height: 100vh;
-    background: #03305E;  
+    background: white;  
 }
 
 .transformacion {
@@ -117,9 +117,15 @@ a {
 .menu_mobile button {    
     width: 100%;
     height: 60px;
-    background: #03305E;
-    color: white;
+    background: white;
+    color: #03305E;
+    font-size: 16px;
+    font-weight: bold;
     box-shadow: none;
+    border: 1px solid white;
+}
+.menu_mobile button:hover {
+    border: 1px solid #03305E; 
 }
 
 @media (min-width: 1250px) {
