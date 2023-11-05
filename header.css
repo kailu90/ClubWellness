@@ -85,6 +85,11 @@ a {
     background: white;  
 }
 
+.menu_mobile a {
+    width: 100%;
+    height: 100%;
+}
+
 .transformacion {
    position: absolute;
    top: 30px;
@@ -115,6 +120,7 @@ a {
 
 .btn_menu_mobile {
     padding-top: 100px;
+    z-index: 1;
 }
 
 .menu_mobile button {    
