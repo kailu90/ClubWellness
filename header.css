@@ -12,7 +12,7 @@ body {
     font-family: 'Playfair Display', serif;
     background-image: url(./Imagenes/isla2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: bottom;    
 }
 
