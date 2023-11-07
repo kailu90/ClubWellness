@@ -1,15 +1,16 @@
 /*******************************FOOTER**************************/
 .footer_container {
     padding: 50px;
-    padding-top: 50px;   
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100vw;
     margin: 0 auto;
-    color:  #03305E;
+    color: #03305E;
     background: white;
+    border-top: 1px solid #03305E;
 }
 
 .web_container {
@@ -49,10 +50,10 @@
 
 @media (min-width: 1024px) {
 
-    .footer_container {       
+    .footer_container {
         flex-direction: row;
-        justify-content: space-between;       
+        justify-content: space-between;
     }
-    
+
 
 }

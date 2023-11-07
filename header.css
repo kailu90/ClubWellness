@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: max-content;
+    height: 100vh;
     font-family: 'Playfair Display', serif;
 }
 
@@ -20,12 +20,12 @@ a {
 /*********************************HEADER******************/
 .header_container {
     display: flex;
-    position: absolute;
+    position: static;
     width: 100vw;
-    height: 80px;
+    height: 120px;
     justify-content: flex-start;
-    align-items: center;
-    margin-left: 20px;
+    align-content: center;    
+    background: white; 
 }
 
 .header_menu_container {
@@ -36,6 +36,9 @@ a {
     width: 40px;
     height: 40px;
     cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 
 .menu_hamburguesa {
@@ -56,9 +59,7 @@ a {
 .menu_mobile {
     display: none;
     flex-direction: column;
-    position: absolute;
-    top: 0;
-    left: -20px;
+    position: absolute;   
     width: 70vw;
     max-width: 300px;
     height: 100vh;
@@ -71,7 +72,7 @@ a {
 }
 
 .header_logo {
-    display: none;
+    display: flex;
     position: absolute;
     top: 10px;
     left: 50%;
@@ -136,18 +137,19 @@ a {
     border: 1px solid #03305E;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) {   
 
     .header_menu_container {
-        display: none;
+        display: none;            
     }
 
     .menu_mobile {
         display: flex;
         width: 100vw;
         max-width: 100vw;
-        height: 100px;
-        background: white;
+        height: 120px;
+        background: white;   
+        padding: 10px 0;    
     }
 
     .menu_mobile img {
@@ -163,7 +165,7 @@ a {
 
     .btn_menu_mobile img {
         width: 100%;
-        height: 80px;
+        height: 100px;
         margin: auto auto auto 40px;
     }
 
