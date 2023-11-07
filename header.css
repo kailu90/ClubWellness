@@ -12,7 +12,7 @@ body {
     font-family: 'Playfair Display', serif;
     background-image: url(./Imagenes/isla2.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: bottom;    
 }
 
@@ -57,22 +57,6 @@ a {
     border-radius: 5px;
 }
 
-.header_logo {
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.header_logo img {
-    width: 50vw;
-    max-width: 300px;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    margin: 0 auto;
-}
-
 .menu_mobile {
     display: none;
     flex-direction: column;
@@ -88,6 +72,23 @@ a {
 .menu_mobile a {
     width: 100%;
     height: 100%;
+}
+
+.header_logo {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header_logo img {
+    width: 50vw;
+    max-width: 300px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 auto;
 }
 
 .transformacion {
@@ -115,11 +116,12 @@ a {
 }
 
 .menu_mobile img {
-    width: 100%;   
+    display: flex;
+    width: 250px; 
+    margin: 0 auto 100px auto;  
 }
 
-.btn_menu_mobile {
-    padding-top: 100px;
+.btn_menu_mobile {    
     z-index: 1;
 }
 
