@@ -153,6 +153,7 @@ a {
     .menu_mobile img {
         margin: 0;
         height: 100%;
+        object-fit: cover;
     }
 
     .btn_menu_mobile {

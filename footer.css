@@ -47,10 +47,10 @@
     margin-top: 20px;
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1024px) {
 
     .footer_container {       
-        flex-direction: ROW;
+        flex-direction: row;
         justify-content: space-between;       
     }
     
