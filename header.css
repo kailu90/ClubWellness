@@ -177,6 +177,7 @@ a {
 
     .menu_mobile button {
         height: 100px;
+        cursor: pointer;
     }
 
 }
