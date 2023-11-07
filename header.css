@@ -9,12 +9,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: max-content;
-    font-family: 'Playfair Display', serif;
-    background-image: url(./Imagenes/isla2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;    
-}
+    font-family: 'Playfair Display', serif;    
+    }  
 
 a {
     text-decoration: none;
@@ -24,7 +20,7 @@ a {
 /*********************************HEADER******************/
 .header_container {
     display: flex;
-    position: relative;
+    position: absolute;
     width: 100vw;
     height: 80px;
     justify-content: flex-start;

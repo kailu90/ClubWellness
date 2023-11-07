@@ -5,17 +5,22 @@
     align-items: center;
     justify-content: center;    
     width: 100vw; 
-    height: max-content;  
+    height: 100vh;  
+    background-image: url(./Imagenes/isla2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;  
+    z-index: -1;
 }
 
 /*El hero es la imagen de fondo del index en la versión mobile*/
 .main_hero_container {   
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     width: 100vw;   
-    height: 100vh; 
+    height: max-content; 
     z-index: -1;   
 }
 
@@ -24,17 +29,30 @@
     flex-direction: column;
     text-align: center;
     justify-content: flex-end;
-    width: 320px;
+    width: 100%;
+    max-width: 250px;
     height: 50vh;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 800;
     color: white;
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 300px;
+    font-family: 'Playfair Display', serif;    
 }
 
 .hero_parrafo p {
     margin: 40px 0;
+}
+
+.hero_logo {
+    display: flex;
+    width: 80%;
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+.hero_logo img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
 }
 
 /*El main programas container oculto mientras confirmo como ubicarlo*********/
@@ -75,3 +93,5 @@
 .main_programas_container img:hover {
     scale: 1.2;
 }
+
+@media
