@@ -5,6 +5,8 @@ body {
 .main_container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
 }
 
@@ -14,12 +16,13 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 20px;
+    top: 120px;
     left: 20px;
     width: 60px;
     height: 80px;
-    color: black;
+    color: #03305E;
 }
+
 
 .btn_atras img {
     width: 50px;
@@ -127,7 +130,7 @@ body {
         display: none;
     }
 
-    .main_programas_container {
+    .main_aliados_container {
         margin-top: 250px;
     }
 }

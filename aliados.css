@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 90vw;      
-    margin-top: 60px;    
+    margin-top: 200px;    
 }
 
 .main_container {
@@ -27,7 +27,7 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 20px;
+    top: 120px;
     left: 20px;
     width: 60px;
     height: 80px;
@@ -80,7 +80,7 @@ body {
         display: none;
     }
 
-    .main_programas_container {
+    .main_aliados_container {
         margin-top: 250px;
     }
 }
