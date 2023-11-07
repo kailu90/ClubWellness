@@ -64,7 +64,12 @@ body {
     height: 200px;
     margin-bottom: 50px; 
     border-radius: 10px;
-    object-fit: cover;    
+    object-fit: cover;      
+}
+
+/*mejorar vista de imagen de los operadores*/
+.operadores img {
+    object-position: center bottom; 
 }
 
 .main_programas_container img:hover {
