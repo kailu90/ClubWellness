@@ -69,3 +69,18 @@ body {
 .main_programas_container img:hover {
    scale: 1.1;
 }
+
+@media (min-width: 1200px) {
+
+    .header_logo {
+        display: flex;
+    }
+
+    .menu_mobile {
+        display: none;
+    }
+
+    .main_programas_container {
+        margin-top: 250px;
+    }
+}
