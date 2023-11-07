@@ -148,8 +148,8 @@ a {
 
     .menu_mobile {
         display: flex;
-        width: 100vw;
-        max-width: 100vw;           
+        width: 110vw;
+        max-width: 110vw;           
         height: 100px;
         background: white;   
     }
