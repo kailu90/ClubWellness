@@ -91,12 +91,13 @@ body {
     justify-content: center;
     align-items: center;
     width: 280px;
-    margin: 80px auto 20px auto;
+    margin: 100px auto;
 }
 
 .correos_container p:nth-child(1) {
     font-size: 20px;
     color: #03305E;
+    margin: 100px 0;
 }
 
 .correos_container p {
