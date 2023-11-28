@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 90vw;      
-    margin-top: 200px;    
+    margin-top: 50px;  
 }
 
 .main_container {
@@ -44,8 +44,15 @@ body {
     justify-content: center;
 }
 
+
+.main_titulo {
+    margin-top: 250px;
+    color: #03305E;
+}
+
 .card_programa {
     margin: 10px auto;
+    border-bottom: 1px solid #03305E;
 }
 
 
