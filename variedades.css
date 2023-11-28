@@ -89,7 +89,6 @@
 }
   
   /******************************CARD***********************************/
-
   
   .titulo_aliados {
     display: flex;
@@ -103,7 +102,7 @@
   }
 
   /*Estilo para mejorar la vista de la página de nuestros aliados*/
-  
+
   .primer_titulo {
     margin-top: 0;
   }
