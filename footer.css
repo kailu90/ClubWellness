@@ -16,10 +16,18 @@
 .web_container {
     text-align: center;
     margin-top: 50px;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.numero_contacto_container p {
+    font-size: 2rem;
+    font-weight: 800;
 }
 
 .numero_contacto_container a {
     color: #03305E;
+    font-size: 2rem;    
 }
 
 .numero_contacto_container {
@@ -35,6 +43,7 @@
 .contactos_whatsapp {
     display: flex;
     flex-direction: column;
+    
 }
 
 .logo_container {
