@@ -1,7 +1,6 @@
 /*******************************FOOTER**************************/
 .footer_container {
-    padding: 50px;
-    padding-top: 50px;
+    padding: 50px;    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,10 +10,12 @@
     color: #03305E;
     background: white;
     border-top: 1px solid #03305E;
+    margin-top: 50px;
 }
 
 .web_container {
     text-align: center;
+    margin-top: 50px;
 }
 
 .numero_contacto_container a {

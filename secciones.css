@@ -2,15 +2,14 @@ body {
     background: white;
 }
 
-
-.main_aliados_container {
+.main_tarjetas_container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 10px;      
     justify-content: center;
     align-items: center;
     width: 90vw;      
-    margin-top: 200px;    
+    margin-top: 50px;  
 }
 
 .main_container {
@@ -27,7 +26,7 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 120px;
+    top: 220px;
     left: 20px;
     width: 60px;
     height: 80px;
@@ -38,6 +37,7 @@ body {
     width: 50px;
     height: 50px;
 }
+
 .btn_atras p {
     width: 60px;
     height: 20px;
@@ -45,15 +45,24 @@ body {
     justify-content: center;
 }
 
+/*****Estilos para el cuerpo de la página*/
+
+.main_titulo {
+    margin-top: 150px;
+    color: #03305E;
+}
+
 .card_programa {
     margin: 10px auto;
+    border-bottom: 1px solid #03305E;
 }
+
 
 .card_programa h2 {
     display: flex;
-    font-size: 20px; 
-    text-align: center; 
     height: 60px;
+    text-align: center; 
+    font-size: 20px;  
     color: #03305E; 
     justify-content: center;
     margin-bottom: 20px;
@@ -64,12 +73,7 @@ body {
     height: 200px;
     margin-bottom: 50px; 
     border-radius: 10px;
-    object-fit: cover;      
-}
-
-/*mejorar vista de imagen de los operadores*/
-.operadores img {
-    object-position: center bottom; 
+    object-fit: cover;     
 }
 
 .main_programas_container img:hover {
@@ -86,7 +90,7 @@ body {
         display: none;
     }
 
-    .main_aliados_container {
+    .main_programas_container {
         margin-top: 250px;
     }
 }
