@@ -1,6 +1,6 @@
 /*******************************FOOTER**************************/
 .footer_container {
-    padding: 50px;    
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +27,7 @@
 
 .numero_contacto_container a {
     color: #03305E;
-    font-size: 2rem;    
+    font-size: 2rem;
 }
 
 .numero_contacto_container {
@@ -43,7 +43,7 @@
 .contactos_whatsapp {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .logo_container {
