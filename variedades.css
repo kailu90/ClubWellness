@@ -49,6 +49,7 @@ h1 {
   justify-content: center;
   margin: 40px auto 30px auto;
   color: #03305E;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .container_menu {
@@ -105,26 +106,28 @@ h1 {
 
 .primer_titulo {
   margin-top: 0;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .container_menu .card {
   position: relative;
   display: flex;
   width: 300px;
-  height: 150px;
-  border: 2px solid #03305E;
+  height: 150px;  
   margin: 5px;
-  border-radius: 20px;
-  color: #03305E;
+  margin-bottom: 40px;    
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}
+
+.container_menu .card:hover {
+  scale: 1.2;
 }
 
 .container_menu .card img {
   height: 147px;
   width: 100px;
-  max-width: 200px;
-  border-radius: 18px 0 0 18px;
-  object-fit: cover;
-  border-right: 2px solid #03305E;
+  max-width: 200px;  
+  object-fit: cover; 
 }
 
 .container_menu .card .card_descripcion {
@@ -132,8 +135,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   margin: 0;
-  width: 100%;
-  border-radius: 0 30px 30px 0;
+  width: 100%;  
 }
 
 .container_menu .card .card_clases {
@@ -170,7 +172,7 @@ h1 {
   font-weight: 800;
   color: WHITE;
   background-color: #03305E;
-  border-radius: 50px 0 18px 0;
+  border-radius: 50px 0 0 0;
   cursor: pointer;
 }
 
