@@ -127,6 +127,7 @@ a {
 }
 
 .menu_mobile button {
+    position: relative;
     width: 100%;
     height: 60px;
     background: white;
@@ -138,8 +139,30 @@ a {
 }
 
 .menu_mobile button:hover {
-    border: 1px solid #03305E;
+    color: #ea1d06;
 }
+
+/*Linea animada para programas*/
+
+.linea_animada {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    width: 50%;
+    background-color: #3498db;
+    animation: desplazamiento 4s linear infinite;
+}
+
+/*Animación de línea en el botón de programa*/
+
+@keyframes desplazamiento {
+    to {
+        transform: translateX(100%);
+    }
+}
+
 
 @media (min-width: 1200px) {
 
