@@ -190,6 +190,7 @@ a {
         flex-direction: row;
         padding: 0 40px;
         background: white;
+        border-bottom: 1px solid #03305E;
     }
 
     .btn_menu_mobile img {
