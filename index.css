@@ -97,11 +97,7 @@
     }
 }
 
-@media (min-width: 1200px) {
-
-    .hero_parrafo {
-        margin-top: 300px;
-    }
+@media (min-width: 1200px) {  
 
     .hero_logo {
         display: none;
