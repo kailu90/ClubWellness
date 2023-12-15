@@ -1,0 +1,95 @@
+/**********************Estilos GENERALES****************************/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 62.5%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  p {
+    font-weight: 300;
+    font-size: 2rem;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  /******************************INICIO DE MAIN******************************/
+  .main section {
+    height: 400px;
+    background-image: url(./Imagenes/FondoProgramaSanacion.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+  }
+  
+  .titulo_container {
+    display: flex;   
+  }
+
+  .texto_container {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    text-align: center;  
+    width: 50vw;  
+  }
+
+  .titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 100px 0;
+    color: #4B1886;
+  }
+
+  .titulo p {
+    font-size: 14px;
+  }
+
+  .logo_container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;   
+    width: 100%;
+  }
+
+  .logo_container div {
+    height: max-content;
+  }
+
+  .logo_container img {
+    height: 40px;
+    width: auto;
+  }
+
+  .imagenes_container {
+    width: 50vw;
+  }
+
+  .imagenes_container div {
+    display: flex;
+    color: #f2f2f2;
+    align-items: center;
+  }
+
+  .imagenes_container div p {
+    font-size: 14px;
+  }
