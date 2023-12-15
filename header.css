@@ -82,6 +82,7 @@ a {
 }
 
 .header_logo img {
+    display: none;
     width: 50vw;
     max-width: 300px;
     height: 100%;
@@ -143,24 +144,20 @@ a {
 
 /*Linea animada para programas*/
 
-.linea_animada {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    content: "";
-    height: 2px;
-    width: 50%;
-    background-color: #3498db;
-    animation: desplazamiento 4s linear infinite;
-}
+.btn-animado {
+    font-size: 24px;
+    font-weight: bold;
+    animation: cambiarColor 5s infinite; /* 5 segundos de duración, repetición infinita */
+  }
 
-/*Animación de línea en el botón de programa*/
-
-@keyframes desplazamiento {
-    to {
-        transform: translateX(100%);
-    }
-}
+  /* Definir la animación */
+  @keyframes cambiarColor {
+    0% { color: red; }       
+    25% { color: #03305E; }     
+    50% { color: red; }   
+    75% { color: #03305E; }   
+    100% { color: red; }  
+  }
 
 
 @media (min-width: 1200px) {
