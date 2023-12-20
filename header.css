@@ -122,6 +122,11 @@ a {
     margin: 0 auto 100px auto;
 }
 
+.btn_menu_mobile img:nth-child(5) {
+   margin-top: 300px;   
+   width: 200px;
+}
+
 .btn_menu_mobile {
     z-index: 1;
 }
@@ -187,12 +192,21 @@ a {
         padding: 0 40px;
         background: white;
         border-bottom: 1px solid #03305E;
+        align-items: center;
     }
 
     .btn_menu_mobile img {
-        width: 100%;
+        width: 250px;
         height: 80px;
+        object-fit: cover;
+        object-position: center;
     }
+
+    .btn_menu_mobile img:nth-child(5) {
+        margin-top: 0;   
+        width: 200px;
+     }
+     
 
     .menu_mobile button {
         height: 100px;

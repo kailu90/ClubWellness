@@ -31,15 +31,18 @@
   
   /******************************INICIO DE MAIN******************************/
   .main section {
-    height: 400px;
+    max-width: 400px;
+    height: max-content;
     background-image: url(./Imagenes/FondoProgramaSanacion.png);
     background-position: center;
     background-repeat: repeat;
     background-size: contain;
   }
   
-  .titulo_container {
-    display: flex;   
+  .programa_container {
+    display: flex; 
+    justify-content: space-between; 
+    padding-bottom: 50px;
   }
 
   .texto_container {
@@ -48,7 +51,48 @@
     align-items: center;
     text-align: center;  
     width: 50vw;  
+    max-width: 300px;
+    height: max-content;
   }
+
+  /*Estilos para sección de programas*/
+
+  .programa_container .seccion_programa_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+  }
+
+  .programa_container .seccion_programa_container h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 50px;
+    font-size: 12px
+  }
+
+  .programa_container .seccion_programa_container p {
+    margin: 0;
+    font-size: 8px;
+    width: 200px;
+    height: max-content;
+  }
+
+  .programa_container .seccion_programa_container p:nth-child(2) {
+    height: 50px;
+  }
+
+  .programa_container .seccion_programa_container p:nth-child(3) {
+    height: 80px;
+  }
+
+  .programa_container .seccion_programa_container p:nth-child(3) {
+    height: 180px;
+  }
+
 
   .titulo {
     display: flex;
@@ -58,6 +102,10 @@
     height: 100px;
     margin: 100px 0;
     color: #4B1886;
+  }
+
+  .programa_container .seccion_programa_container .titulo_programas {
+    margin: 0;
   }
 
   .titulo p {
@@ -81,15 +129,36 @@
   }
 
   .imagenes_container {
+
     width: 50vw;
+    margin: 20px;
   }
 
   .imagenes_container div {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     color: #f2f2f2;
     align-items: center;
+    width: 160px;
+    height: 80px;
+    padding-bottom: 30px;
   }
 
   .imagenes_container div p {
-    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    font-size: 10px;
+    text-align: center;
   }
+
+  .imagenes_container div img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+  } 
+

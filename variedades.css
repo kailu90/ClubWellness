@@ -192,6 +192,24 @@ h1 {
   color: white;
 }
 
+.parrafos {
+  display: inline-block;
+  opacity: 0;
+  animation: slideIn 2s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+  0% {
+      transform: translateY(-50px);
+      opacity: 0;
+  }
+
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
 @media (min-width: 1024px) {
  
   .container_menu {
@@ -208,6 +226,14 @@ h1 {
   
   .header_logo img {
     display: none;
+  }
+
+  .web_container {
+    margin: 0;
+  }
+
+  .logo_container img {
+    margin: 0;
   }
 
 }

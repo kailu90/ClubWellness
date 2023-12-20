@@ -1,14 +1,55 @@
-body {
-    background: white;
-}
-
+/**********************Estilos GENERALES****************************/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 62.5%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  p {
+    font-weight: 300;
+    font-size: 2rem;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /******************************INICIO DE MAIN******************************/
+  
 .main_container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
+    height: max-content;
+    padding-top: 100px;
 }
+
+h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin: 40px auto 30px auto;
+    color: #03305E;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
 
 .main_container .btn_atras {
     display: flex;
@@ -16,7 +57,7 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 180px;
+    top: 120px;
     left: 20px;
     width: 60px;
     height: 80px;
@@ -42,29 +83,22 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 280px;
-    margin: 100px auto;
+    width: 100vw;   
 }
 
-.correos_container p:nth-child(1) {
-    font-size: 20px;
-    color: #03305E;
-    margin: 100px 0;
+.correos_container a {
+    height: 100px;
+    margin: 50px 0;
 }
 
-.correos_container p {
-    display: flex;
-    margin: 30px 0;
-    width: 230px;
-    justify-content: center;
-    color: #03305E;
+.correos_container a:hover {
+    scale: 1.2;
 }
 
 .correo {
     display: flex;
     align-items: center;
-    color: #03305E;
-    width: 280px;
+    color: #03305E;   
 }
 
 .correo img {
@@ -80,10 +114,38 @@ body {
     }
 
     .menu_mobile {
-        display: none;
+        display: flex;
     }
 
     .main_aliados_container {
         margin-top: 250px;
     }
+
+    .web_container {
+        margin: 0;
+    }
+
+    .logo_container img {
+        margin: 0;
+    }
 }
+
+@media (min-width: 1024px) {
+ 
+    .container_menu {
+      width: 300px;
+      height: max-content;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 55px;
+      margin-top: 20px;
+      gap: 50px;
+    }
+    
+    .header_logo img {
+      display: none;
+    }
+  
+  }
