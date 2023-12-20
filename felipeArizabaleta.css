@@ -1,0 +1,84 @@
+/**********************Estilos GENERALES****************************/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 62.5%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  p {
+    font-weight: 300;
+    font-size: 2rem;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /******************************INICIO DE MAIN******************************/
+  .main_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: max-content;
+  }
+
+  .imagen_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+    text-align: center;
+  }
+
+  .imagen_container h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin: 60px auto 30px auto;
+    color: #03305E;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .imagen_container img {
+    width: 80%;
+    margin: 50px auto;
+  }
+
+  .parrafo_container {
+    font-size: 2rem;
+    margin: 0 20px;
+    color: #03305E;
+  }
+
+  .parrafo_container strong {
+    font-size: 2rem;
+  }
+
+  .parrafo_container p {
+    margin: 20px 0;
+  }
+
+  .video_container {
+    width: 100vw;
+  }
+
+  .video_container iframe {
+    width: 90%;
+  }
