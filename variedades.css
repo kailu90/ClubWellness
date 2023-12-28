@@ -123,7 +123,12 @@ h1 {
   height: 147px;
   width: 100px;
   max-width: 200px;  
-  object-fit: cover; 
+  object-fit: cover;    
+}
+
+.card .card_imagen .img_wellness_living , .card .card_imagen .img_aracanto {
+  object-fit: contain;  
+  overflow: hidden; 
 }
 
 .container_menu .card .card_descripcion {
