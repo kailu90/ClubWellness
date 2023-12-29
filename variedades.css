@@ -35,8 +35,7 @@ main {
   width: 100vw;
   height: max-content;
   justify-content: center;
-  align-items: center;
-  padding-top: 100px;
+  align-items: center;  
   margin: auto 0;
 }
 
@@ -60,7 +59,7 @@ h1 {
   justify-content: center;
   align-items: center;
   margin-bottom: 55px;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .main_container .btn_atras {
@@ -69,8 +68,8 @@ h1 {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 120px;
-  left: 20px;
+  top: 100px;
+  left: 30px;
   width: 60px;
   height: 80px;
   color: #03305E;
