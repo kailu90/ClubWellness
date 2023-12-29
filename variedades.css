@@ -215,6 +215,14 @@ h1 {
 }
 
 @media (min-width: 1024px) {
+
+  .main_container .btn_atras {
+    top: 150px;
+  }
+
+  main {
+    padding-top: 100px;
+  }
  
   .container_menu {
     width: 300px;
