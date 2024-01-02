@@ -133,6 +133,8 @@
   .dia_uno_container h2, .dia_dos_container h2 {
     font-size: 20px;
     font-weight: 800;
+    margin: 10px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   }
 
   
