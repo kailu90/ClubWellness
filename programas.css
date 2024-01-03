@@ -91,6 +91,14 @@
     margin: 50px auto;
   }
 
+  .container_proximamente{
+    padding-top: 150px;
+  }
+
+  .imagen_proximamente {    
+    border: 1px solid #03305E;
+  }
+
   .parrafo_container {
     display: flex;
     flex-direction: column;
