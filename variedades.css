@@ -28,6 +28,29 @@ body {
 }
 
 /******************************INICIO DE MAIN******************************/
+.header_container {
+  display: flex;
+  height: 100px;
+
+}
+
+.header_menu_container {
+  height: 100px;
+}
+
+
+.header_menu_container .linea_menu {
+  background:  black;
+  z-index: 100;
+}
+
+
+.header_logo {
+  height: 100px;
+  z-index: 10;
+}
+
+
 main {
   display: flex;
   flex-direction: column;
