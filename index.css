@@ -23,7 +23,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-top: 200px;
+    padding-top: 150px;
     width: 100vw;
     height: 100vh;
     z-index: -1;
@@ -46,6 +46,16 @@
 
 .hero_parrafo p {
     margin: 60px 0 40px 0;
+    font-size: 70px;
+}
+
+.hero_parrafo .conector {
+    color: #03305E;
+    animation: slideIn 4s ease-in-out forwards;
+}
+
+.hero_parrafo .texto2 {    
+    animation: slideIn 6s ease-in-out forwards;
 }
 
 .hero_parrafo strong {
@@ -57,15 +67,14 @@
 .hero_logo {
     display: flex;
     justify-content: center;
-    width: 100%;
-    max-width: 300px;
-    margin: 0 auto;
-    padding-bottom: 50px;
+    height: 100px;
+    width: 400vw;    
+    margin: 0 auto;   
 }
 
 .hero_logo img {
-    width: 100%;
-    max-width: 400px;
+    width: auto;   
+    height: 100%;
     border-radius: 10px;
 }
 
@@ -73,6 +82,16 @@
     display: inline-block;
     opacity: 0;
     animation: slideIn 2s ease-in-out forwards;
+}
+
+.hero_logo .logo1 {
+    width: 100vw;
+    animation: AnimacionLogo 20s linear infinite
+}
+
+.hero_logo .logo2 {
+    width: 100vw;
+    animation: AnimacionLogo 20s linear infinite
 }
 
 @keyframes slideIn {
@@ -84,6 +103,15 @@
     100% {
         transform: translateY(0);
         opacity: 1;
+    }
+}
+
+@keyframes AnimacionLogo{
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-200%); /* Cambiado a -50% para incluir el duplicado de las imágenes */
     }
 }
 
