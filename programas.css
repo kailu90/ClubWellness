@@ -88,7 +88,7 @@
   .imagen_container img {
     width: 80%;
     max-width: 400px;
-    margin: 50px auto;
+    margin: 0 auto;
   }
 
   .container_proximamente{
@@ -129,32 +129,37 @@
     max-width: 400px;
   }
 
-  .dia_uno_container {
+  .chef_containerA {
     display: flex;
     flex-direction: column;
-    margin: 50px auto 25px 0;
+    margin: 5px auto 5px 0;
     height: max-content;
     width: 70%;
+    max-width: 200px;
     border: 1px solid #03305E;
   }
 
-  .dia_uno_container h2, .dia_dos_container h2 {
+  .chef_containerB {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 5px auto;
+    height: max-content;
+    width: 70%;
+    max-width: 200px;
+    border: 1px solid #03305E;
+  }
+
+  .chef_containerA.hover {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .chef_containerA h2, .chef_containerB h2 {
     font-size: 20px;
     font-weight: 800;
     margin: 10px 0;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   }
-
-  
-  .dia_dos_container {
-    display: flex;
-    flex-direction: column;
-    margin: 50px 0 25px auto;
-    height: max-content;
-    width: 70%;
-    border: 1px solid #03305E;
-  }
-
 
   .btn-asesor {   
     margin: 50px auto 0 auto;    

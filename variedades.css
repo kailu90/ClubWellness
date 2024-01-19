@@ -113,6 +113,11 @@ h1 {
 
 /******************************CARD***********************************/
 
+.menu_hamburguesa {
+  display: none;
+}
+
+
 .titulo_aliados {
   display: flex;
   justify-content: center;
@@ -135,8 +140,7 @@ h1 {
   position: relative;
   display: flex;
   width: 300px;
-  height: 150px;  
-  margin: 5px;
+  height: 150px;   
   margin-bottom: 40px;    
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
 }
